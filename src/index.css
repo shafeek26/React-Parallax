@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  width: 100%;
+  height: 100vh;
+}
+.image{
+  width: 100vw;
+  height: 100%;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  font-size: .7rem;
+  background-color: #CAD5E2;
+  padding: 2px 6px;
+}
+.text p{
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: .8px;
+  font-weight: 500;
+}
+@media screen and (max-width : 640px) {
+  .content{
+    font-size: .5rem;
+    text-align: center;
+  }
+  .text{
+    font-size: .8rem;
+  }
+}
